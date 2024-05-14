@@ -17,7 +17,7 @@ jobs:
         name: Unit Testing
         runs-on: ubuntu-latest
         container:
-          image: node:18
+          image: node:20
         steps:
         - name: Checkout Repository
           uses: actions/checkout@v4
